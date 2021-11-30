@@ -2,6 +2,8 @@
 
 color: #6C63FF;
 
-border-radius: 0px 0px 20px 20px;
+border-radius:5px;
+
+border-raduis: 20px;
 
 background: #E5E5E5;
