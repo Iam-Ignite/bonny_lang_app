@@ -14,3 +14,6 @@ linear for the loader circle
 78%
 #1166E4
 70.98%
+
+
+https://www.figma.com/file/8nW9nABVC5AdiCwT3QskAy/Untitled-(Copy)?node-id=137%3A42
