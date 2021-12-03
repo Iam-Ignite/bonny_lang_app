@@ -21,10 +21,10 @@
     <div id="main">
       <header id="header__section">
         <div id="banner">
-          <a href="#" class="menu__bar">
+          <a href="#" class="menu__bar icon">
             <i class="fa fa-bars"></i>
           </a>
-          <a href="#" class="notify">
+          <a href="#" class="notify icon">
             <i class="far fa-bell"></i>
             <span class="notify__badge"></span>
           </a>
@@ -35,7 +35,10 @@
         <!-- <section id="hompage">
           <div id="clock">
             <div id="clock__timer">
-              <h2>07 : 50 <sup id="clock__meridiem">AM</sup></h2>
+              <h2>
+                <span id="time">07 : 50 </span
+                ><sup id="clock__meridiem">AM</sup>
+              </h2>
               <p>Monday, Nov 2021</p>
             </div>
           </div>
@@ -53,7 +56,8 @@
 
           <div id="updates">
             <div id="update__title">
-              <h1>Daily tips!</h1>
+              <h1>Daily updates!</h1>
+              <hr />
             </div>
             <div id="update__body">
               <p>Bonjour, Amor!</p>
@@ -64,30 +68,22 @@
           </div>
         </section> -->
 
-        <div id="game__section">
-          <div id="carousel"></div>
-
-          <div id="game__overview">
-            <p>Learn it while having fun, Play with friends online tools</p>
+        <section id="game__page">        
+          <div id="game__banner"></div>
+          <div id="game__body">
+            <span id="game__para"
+              >learn in fun, play with friends, and test your skills.<span>&#128512</span></span
+            >
           </div>
-
-          <div id="game__component">
-            <div id="game__card">
-              <div id="game__title">
-                <p>Quizzy</p>
-                <span>?</span>
-              </div>
-              <div id="game__image"></div>
-
-              <button>
-                <p>Play</p>
-                <i class="fas fa-play"></i>
-              </button>
-            </div>
+          <div id="game__title">
+            <p id="title">1. dicey</p>
+            <span id="game__info">?</span>
           </div>
-        </div>
+          <div id="game__card"></div>
+          <button id="game__btn">see all</button>
+        </section>
 
-        <!-- <section id="learn__page">
+        <section id="learn__page">
           <div id="slide__container">
             <div class="slide__dots">
               <span class="dot active"></span>
@@ -119,7 +115,7 @@
             </div>
             <button id="get_started">get started</button>
           </div>
-        </section> -->
+        </section>
       </main>
       <div id="navigation__wrapper">
         <footer id="navigation">
@@ -197,5 +193,6 @@
 
       <!--end of navbar-->
     </div>
+    <script src="js/Dom.js"></script>
   </body>
 </html>
