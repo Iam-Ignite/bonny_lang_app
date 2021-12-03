@@ -17,3 +17,5 @@ linear for the loader circle
 
 
 https://www.figma.com/file/8nW9nABVC5AdiCwT3QskAy/Untitled-(Copy)?node-id=137%3A42
+
+https://docs.google.com/document/d/1z6dke2H_fpgB4qxeevyntfwQcQQ-Ar67Y3slORuqvhw/edit
